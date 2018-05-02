@@ -4,13 +4,6 @@ import FontAwesome from 'react-fontawesome';
 
 import './sideNav.css';
 
-//<div className="option">
-//<Link to="/">
-//    <FontAwesome name="home" />
-//    Home
-//</Link>
-//</div>
-
 const SideNavItems = () => {
 
     const items = [

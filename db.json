@@ -1,0 +1,689 @@
+{
+    "articles":[
+        {
+            "id":1,
+            "team":3,
+            "title":"Excepteur sint occaecat cupidatat non proident.",
+            "image":"1.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":2,
+            "team":4,
+            "title":"Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+            "image":"2.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":3,
+            "team":3,
+            "title":"Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+            "image":"3.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":4,
+            "team":6,
+            "title":"Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "image":"4.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":5,
+            "team":8,
+            "title":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+            "image":"15.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":6,
+            "team":7,
+            "title":"Sed ut perspiciatis unde omnis iste natus error",
+            "image":"5.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":7,
+            "team":10,
+            "title":"Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis",
+            "image":"16.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":8,
+            "team":6,
+            "title":"Et quasi architecto beatae vitae dicta sunt explicabo",
+            "image":"6.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":9,
+            "team":14,
+            "title":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+            "image":"7.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":10,
+            "team":14,
+            "title":"Magni dolores eos qui ratione voluptatem sequi nesciunt.",
+            "image":"8.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":11,
+            "team":2,
+            "title":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet",
+            "image":"9.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":12,
+            "team":4,
+            "title":"Adipisci velit, sed quia non numquam eius modi tempora incidunt",
+            "image":"10.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":13,
+            "team":7,
+            "title":"Ut labore et dolore magnam aliquam quaerat voluptatem",
+            "image":"11.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":14,
+            "team":9,
+            "title":"Ut enim ad minima veniam, quis nostrum exercitationem ullam",
+            "image":"12.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":15,
+            "team":9,
+            "title":"Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+            "image":"13.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":16,
+            "team":1,
+            "title":"Esse quam nihil molestiae consequatur",
+            "image":"14.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":17,
+            "team":3,
+            "title":"At vero eos et accusamus et iusto odio dignissimos ducimus ",
+            "image":"5.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        },
+        {
+            "id":18,
+            "team":4,
+            "title":"Qui blanditiis praesentium voluptatum deleniti atque corrupti quos",
+            "image":"6.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date":"10/12/2018",
+            "author":"John Secada",
+            "tags":["London","England"]
+        }
+    ],
+    "videos":[
+        {
+          "id":1,
+          "team":2,
+          "title":"Qui blanditiis praesentium voluptatum deleniti atque corrupti quos",
+          "image":"1.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["London","England"]
+        },
+        {
+          "id":2,
+          "team":8,
+          "title":"Sed ut perspiciatis unde omnis iste natus error sit",
+          "image":"2.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["Chelsea","London","England"]
+        },
+        {
+          "id":3,
+          "team":8,
+          "title":"Laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis",
+          "image":"3.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["London","England"]
+        },
+        {
+          "id":4,
+          "team":2,
+          "title":"Qui blanditiis praesentium voluptatum deleniti atque corrupti quos",
+          "image":"4.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["London","England"]
+        },
+        {
+          "id":5,
+          "team":8,
+          "title":"Sed ut perspiciatis unde omnis iste natus error sit",
+          "image":"5.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["West Ham","London","England"]
+        },
+        {
+          "id":6,
+          "team":8,
+          "title":"Laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis",
+          "image":"6.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["London","England"]
+        },
+
+        {
+          "id":7,
+          "team":2,
+          "title":"Qui blanditiis praesentium voluptatum deleniti atque corrupti quos",
+          "image":"7.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["London","England"]
+        },
+        {
+          "id":8,
+          "team":8,
+          "title":"Sed ut perspiciatis unde omnis iste natus error sit",
+          "image":"8.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["Tottenham","London","England"]
+        },
+        {
+          "id":9,
+          "team":8,
+          "title":"Laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis",
+          "image":"9.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["London","England"]
+        },
+        {
+          "id":10,
+          "team":2,
+          "title":"Qui blanditiis praesentium voluptatum deleniti atque corrupti quos",
+          "image":"10.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["London","England"]
+        },
+        {
+          "id":11,
+          "team":8,
+          "title":"Sed ut perspiciatis unde omnis iste natus error sit",
+          "image":"1.jpeg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["Arsenal","London","England"]
+        },
+        {
+          "id":12,
+          "team":8,
+          "title":"Laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis",
+          "image":"2.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["London","England"]
+        },
+        {
+          "id":13,
+          "team":8,
+          "title":"Sed ut perspiciatis unde omnis iste natus error sit",
+          "image":"3.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["Manchester United","Manchester","England"]
+        },
+        {
+          "id":14,
+          "team":8,
+          "title":"Laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis",
+          "image":"4.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["London","England"]
+        },
+        {
+          "id":15,
+          "team":2,
+          "title":"Qui blanditiis praesentium voluptatum deleniti atque corrupti quos",
+          "image":"5.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["London","England"]
+        },
+        {
+          "id":16,
+          "team":8,
+          "title":"Sed ut perspiciatis unde omnis iste natus error sit",
+          "image":"6.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["Manchester United","Manchester","England"]
+        },
+        {
+          "id":17,
+          "team":8,
+          "title":"Laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis",
+          "image":"7.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["London","England"]
+        },
+        {
+          "id":18,
+          "team":2,
+          "title":"Qui blanditiis praesentium voluptatum deleniti atque corrupti quos",
+          "image":"8.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["London","England"]
+        },
+        {
+          "id":19,
+          "team":8,
+          "title":"Sed ut perspiciatis unde omnis iste natus error sit",
+          "image":"9.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["Everton","Liverpool","England"]
+        },
+        {
+          "id":20,
+          "team":8,
+          "title":"Laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis",
+          "image":"10.jpg",
+          "url":"XKI0xlnMBZQ",
+          "date":"10/12/2018",
+          "tags":["Liverpool","England"]
+        }
+    ],
+    "teams": [
+        {
+          "id": 1,
+          "name": "Manchester Сity",
+          "city": "Manchester",
+          "logo": "мanchester_сity.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":30,
+              "draws":3,
+              "defeats":2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Manchester_United",
+          "city": "Manchester",
+          "logo": "manchester_united.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":24,
+              "draws":5,
+              "defeats":6
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Liverpool",
+          "city": "Liverpool",
+          "logo": "liverpool.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":20,
+              "draws":12,
+              "defeats":4
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Tottenham",
+          "city": "London",
+          "logo": "tottenham.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":21,
+              "draws":8,
+              "defeats":6
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Chelsea",
+          "city": "London",
+          "logo": "chelsea.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":20,
+              "draws":6,
+              "defeats":9
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Arsenal",
+          "city": "London",
+          "logo": "arsenal.png",
+          "poll": "true",
+          "count": 2365,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":17,
+              "draws":6,
+              "defeats":12
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Burnley",
+          "city": "Burnley",
+          "logo": "burnley.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":14,
+              "draws":12,
+              "defeats":10
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Everton",
+          "city": "Liverpool",
+          "logo": "everton.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":13,
+              "draws":9,
+              "defeats":14
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Leicester City",
+          "city": "Leicester",
+          "logo": "leicester_city.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":11,
+              "draws":11,
+              "defeats":13
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Newcastle United",
+          "city": "Newcastle upon Tyne",
+          "logo": "newcastle_united.png",
+          "poll": "true",
+          "count": 2365,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":11,
+              "draws":8,
+              "defeats":16
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Crystal Palace",
+          "city": "London",
+          "logo": "crystal_palace.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":9,
+              "draws":11,
+              "defeats":16
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Bournemouth",
+          "city": "Bournemouth",
+          "logo": "bournemouth.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":9,
+              "draws":11,
+              "defeats":16
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Watford",
+          "city": "Watford",
+          "logo": "watford.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":10,
+              "draws":8,
+              "defeats":18
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Brighton",
+          "city": "Brighton",
+          "logo": "brighton.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":8,
+              "draws":13,
+              "defeats":14
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "West Ham United",
+          "city": "London",
+          "logo": "west_ham.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":8,
+              "draws":11,
+              "defeats":16
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Huddersfield",
+          "city": "Huddersfield",
+          "logo": "huddersfield.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":9,
+              "draws":8,
+              "defeats":18
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Swansea City",
+          "city": "Swansea",
+          "logo": "swansea.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":8,
+              "draws":9,
+              "defeats":18
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Southampton",
+          "city": "Southampton",
+          "logo": "southampton.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":6,
+              "draws":14,
+              "defeats":15
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Stoke City",
+          "city": "Stoke-on-Tren",
+          "logo": "Stoke_city.png",
+          "poll": "false",
+          "count": 0,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":6,
+              "draws":12,
+              "defeats":18
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "West Bromwich",
+          "city": "West Bromwich",
+          "logo": "west_bromwich.png",
+          "poll": "true",
+          "count": 13,
+          "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+          "stats":[
+            {
+              "wins":5,
+              "draws":13,
+              "defeats":18
+            }
+          ]
+        }
+      ]
+}

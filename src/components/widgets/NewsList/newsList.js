@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 import { URL } from '../../../config';
+import Button from '../../widgets/Buttons/button';
 import './newsList.css';
 
 class NewsList extends Component {
@@ -38,13 +39,22 @@ class NewsList extends Component {
         switch(type) {
             case('card'):
                 template = this.state.items.map((item,i) => (
-                    <div key={i}>
-                        <div className="newslist-item">
-                            <Link to={`/articles/${item.id}`}>
-                                <h2>{item.title}</h2>
-                            </Link>
+                    <CSSTransition
+                        classNames={{
+                            enter: 'newslist-wrapper',
+                            enterActive: 'newslist-wrapper-enter'
+                        }}
+                        timeout={500}
+                        key={i}
+                    >
+                        <div>
+                            <div className="newslist-item">
+                                <Link to={`/articles/${item.id}`}>
+                                    <h2>{item.title}</h2>
+                                </Link>
+                            </div>
                         </div>
-                    </div>
+                    </CSSTransition>
                 ));
                 break;
             default: 
@@ -54,13 +64,20 @@ class NewsList extends Component {
     }
 
     render() {
-        console.log(this.state.items)
         return (
             <div>
-                { this.renderNews(this.props.type) }
-                <div onClick={() => this.loadMore()}>
-                    LOAD MORE
-                </div>
+                <TransitionGroup
+                    component="div"
+                    className="list"
+
+                >
+                    { this.renderNews(this.props.type) }
+                </TransitionGroup>
+                <Button
+                    type="loadmore"
+                    loadMore={() => this.loadMore()}
+                    cta="Load More News"
+                />
             </div>
         )
     }

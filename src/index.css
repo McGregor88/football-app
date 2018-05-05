@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    min-width: 320px;
+    position: relative;
+    background: #fff;
+    font-size: 16px;
+    color: #000;
+    overflow-x: hidden;
+    opacity: 1;
+}
+a {
+    text-decoration: none;
+}
+.text-upper {
+    text-transform: uppercase;
+}

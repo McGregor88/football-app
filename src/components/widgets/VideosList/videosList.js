@@ -37,7 +37,9 @@ class VideosList extends Component {
         axios.get(`${URL}/videos?_start=${start}&_end=${end}`)
         .then(response => {
             this.setState({
-                videos: [...this.state.videos, ...response.data]
+                videos: [...this.state.videos, ...response.data],
+                start,
+                end
             })
         })
     }
@@ -56,7 +58,8 @@ class VideosList extends Component {
     }
 
     loadMore = () => {
-
+        let end = this.state.end + this.state.amount;
+        this.request(this.state.end, end)
     }
 
     renderButton = () => {

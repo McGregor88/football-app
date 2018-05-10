@@ -18,11 +18,13 @@
     color: #525252;
 }
 
-.videolist-wrapper .left {
+.videolist-wrapper .left,
+.related-wrapper .left {
     background-size: cover !important;
 }
 
-.videolist-wrapper .left div {
+.videolist-wrapper .left div,
+.related-wrapper .left div {
     width: 90px;
     height: 90px;
     background-size: 40px !important;
@@ -34,4 +36,8 @@
 .videolist-wrapper .right {
     flex-grow: 1;
     padding: 10px;
+}
+
+.related-wrapper {
+    margin: 0 5px;
 }

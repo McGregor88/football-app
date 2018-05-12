@@ -6,6 +6,7 @@ import Home from './components/Home/home';
 import NewsArticle from './components/Articles/News/Post';
 import VideoArticle from './components/Articles/Videos/Video';
 import NewsMain from './components/Articles/News/Main';
+import VideosMain from './components/Articles/Videos/Main';
 
 class Routes extends Component {
     render() {
@@ -13,9 +14,10 @@ class Routes extends Component {
             <Layout>
                 <Switch>
                     <Route path="/" exact component={Home} />
-                    <Route path="/news" exact component={NewsMain} />
                     <Route path="/articles/:id" exact component={NewsArticle} />
                     <Route path="/videos/:id" exact component={VideoArticle} />
+                    <Route path="/news" exact component={NewsMain} />
+                    <Route path="/videos" exact component={VideosMain} />
                 </Switch>
             </Layout>
         )

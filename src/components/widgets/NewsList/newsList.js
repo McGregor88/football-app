@@ -82,7 +82,7 @@ class NewsList extends Component {
                         <div>
                             <div className="newslist-item">
                                 <Link to={`/articles/${item.id}`}>
-                                    <CardInfo teams={this.state.teams} team={item.team} date={item.date}/>
+                                    <CardInfo teams={this.state.teams} team={item.teamId} date={item.date}/>
                                     <h2>{item.title}</h2>
                                 </Link>
                             </div>

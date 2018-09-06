@@ -21,7 +21,7 @@ const VideosTemplate = (props) => {
                 <div className="right">
                     <CardInfo
                         teams={props.teams}
-                        team={item.team}
+                        team={item.teamId}
                         date={item.date}
                     />
                     <h2>{item.title}</h2>

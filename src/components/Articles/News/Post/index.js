@@ -16,7 +16,7 @@ class NewsArticle extends Component {
         .then((snapshot) => {
             let article = snapshot.val();
 
-            firebaseTeams.orderByChild("teamId").equalTo(article.teamId).once('value')
+            firebaseTeams.orderByChild("id").equalTo(article.teamId).once('value')
             .then((snapshot) => {
                 const team = firebaseLooper(snapshot)
                 this.setState({

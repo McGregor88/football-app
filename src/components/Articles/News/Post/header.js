@@ -6,6 +6,7 @@ import PostData from '../../Elements/postData';
 const header = (props) => {
 
     const teamInfo = (team) => {
+        //console.log(props.teamData)
         return team ? (
             <TeamInfo team={team} />
         ):null;

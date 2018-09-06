@@ -110,7 +110,7 @@ class NewsList extends Component {
                                     <div></div>
                                 </div>
                                 <div className="right">
-                                    <CardInfo teams={this.state.teams} team={item.team} date={item.date}/>
+                                    <CardInfo teams={this.state.teams} team={item.teamId} date={item.date}/>
                                     <h2>{item.title}</h2>
                                 </div>
                             </div>

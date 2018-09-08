@@ -1,4 +1,5 @@
 import React from 'react';
+import TextField from '@material-ui/core/TextField';
 
 import './formFields.css';
 
@@ -25,10 +26,12 @@ const FormField = ({formdata, change, id}) => {
             case('input'):
                 formTemplate = (
                     <div className="form-element__in">
-                        <input
+                        <TextField
+                            margin="normal"
+                            label={formdata.config.placeholder}
+                            className="input"
                             {...formdata.config}
                             value={formdata.value}
-                            className="input"
                             onBlur={(event) => change( {event, id, blur:true} )}
                             onChange={(event) => change( {event, id, blur:false} )}
                         />

@@ -184,7 +184,7 @@ class SignIn extends Component {
         return (
             <div className="log-container">
                 <h2 className="log-title">Register / Log in</h2>
-                <form onSubmit={ (event) => this.submitForm(event, null) } className="form">
+                <form onSubmit={ (event) => this.submitForm(event, null) } className="form" noValidate autoComplete="off">
                     <div className="form__data">
                         <FormField
                             id={'email'}

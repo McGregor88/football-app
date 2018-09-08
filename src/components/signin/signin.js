@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from '@material-ui/core/Button';
 
 import './signin.css';
 import FormField from '../widgets/FormFields/formFields';
@@ -98,22 +99,76 @@ class SignIn extends Component {
         return error;
     }
 
+    submitForm = (event, type) => {
+        event.preventDefault();
+
+        if(type !== null) {
+            let dataToSubmit = {};
+            let formIsValid = true;
+
+            for(let key in this.state.formdata) {
+                dataToSubmit[key] = this.state.formdata[key].value
+            }
+            for(let key in this.state.formdata) {
+                formIsValid = this.state.formdata[key].valid && formIsValid
+            }
+
+            if(formIsValid) {
+                this.setState({
+                    loading: true,
+                    registerError: ''
+                })
+                if(type) {
+                    console.log('Log in')
+                } else {
+                    console.log('Register')
+                }
+            }
+        }
+    }
+
+    submitButton = () => (
+        this.state.loading ?
+            'loading...'
+        :
+        <div className="form-buttons text-center">
+            <Button
+                variant="contained"
+                onClick={ (event) => this.submitForm(event, false) }
+                color="primary"
+                size="large"
+                type="submit"
+            >Register now
+            </Button>
+            <Button 
+                variant="outlined" 
+                onClick={ (event) => this.submitForm(event, true) } 
+                color="primary" 
+                size="large"
+                type="submit"
+            >Log in
+            </Button>
+        </div>
+    )
+
     render() {
         return (
             <div className="log-container">
                 <h2 className="log-title">Register / Log in</h2>
-                <form className="form">
+                <form onSubmit={ (event) => this.submitForm(event, null) } className="form">
                     <div className="form__data">
                         <FormField
                             id={'email'}
                             formdata={this.state.formdata.email}
-                            change={(element) => this.updateForm(element)}
+                            change={ (element) => this.updateForm(element) }
                         />
                         <FormField
                             id={'password'}
                             formdata={this.state.formdata.password}
-                            change={(element) => this.updateForm(element)}
+                            change={ (element) => this.updateForm(element) }
                         />
+
+                        { this.submitButton() }
                     </div>
                 </form>
             </div>

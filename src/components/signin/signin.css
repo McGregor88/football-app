@@ -2,7 +2,7 @@
 {
     width: 80%;
     margin:  0 auto;
-    height: calc(100vh - 102px);
+    min-height: calc(100vh - 102px);
     padding-top: 50px;
 }
 
@@ -12,4 +12,8 @@
     font-weight: 300;
     text-align: center;
     font-size: 35px;
+}
+
+.form-buttons button:first-child {
+    margin-right: 2px;
 }

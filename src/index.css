@@ -1,7 +1,10 @@
-* {
+*
+{
     box-sizing: border-box;
 }
-body {
+
+body
+{
     min-width: 320px;
     position: relative;
     background: #ececec;
@@ -10,9 +13,28 @@ body {
     overflow-x: hidden;
     opacity: 1;
 }
-a {
+
+a
+{
     text-decoration: none;
 }
-.text-upper {
+
+.text-left
+{
+    text-align: left;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.text-right
+{
+    text-align: right;
+}
+
+.text-upper
+{
     text-transform: uppercase;
 }

@@ -1,3 +1,20 @@
-.form-element {
+.form-element
+{
     margin-bottom: 20px;
+}
+
+.input
+{
+    font-size: 17px;
+    width: 100%;
+    margin-top: 0;
+    padding: 12px 10px;
+    font-weight: 300;
+}
+
+.error-box
+{
+    color: #ff5722;
+    font-weight: 500;
+    margin-top: 0.5em;
 }

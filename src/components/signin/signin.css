@@ -1,21 +1,15 @@
-.log-container {
+.log-container
+{
     width: 80%;
     margin:  0 auto;
     height: calc(100vh - 102px);
     padding-top: 50px;
 }
 
-.log-container__title {
+.log-title
+{
     margin-bottom: 5rem;
     font-weight: 300;
     text-align: center;
     font-size: 35px;
-}
-
-.input {
-    font-size: 17px;
-    width: 100%;
-    margin-top: 0;
-    padding: 12px 10px;
-    font-weight: 300;
 }

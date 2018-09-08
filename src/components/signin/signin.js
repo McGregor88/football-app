@@ -53,7 +53,17 @@ class SignIn extends Component {
         }
 
         newElement.value = element.event.target.value;
+        if(element.blur) {
+            let validData = this.validate(newElement);
+
+            newElement.valid = validData[0];
+            newElement.validationMessage = validData[1];
+        }
+
+        newElement.touched = element.blur;
         newFormdata[element.id] = newElement;
+
+        //console.log(newFormdata)
 
         this.setState({
             formdata: newFormdata
@@ -61,21 +71,50 @@ class SignIn extends Component {
 
     }
 
+    validate = (element) => {
+        let error = [true, ''];
+
+        if(element.validation.email) {
+            const valid = /\S+@\S+\.\S+/.test(element.value);
+            const message = `${!valid ? 'Must be a valid email' : ''}`;
+
+            error = !valid ? [valid, message] : error
+        }
+
+        if(element.validation.password) {
+            const valid = element.value.length >= 6;
+            const message = `${!valid ? 'Must be greater than 5' : ''}`;
+
+            error = !valid ? [valid, message] : error
+        }
+
+        if(element.validation.required) {
+            const valid = element.value.trim() !== '';
+            const message = `${!valid ? 'This field is required' : ''}`;
+
+            error = !valid ? [valid, message] : error
+        }
+        
+        return error;
+    }
+
     render() {
         return (
             <div className="log-container">
-                <h2 className="log-container__title">Register / Log in</h2>
+                <h2 className="log-title">Register / Log in</h2>
                 <form className="form">
-                    <FormField
-                        id={'email'}
-                        formdata={this.state.formdata.email}
-                        change={(element) => this.updateForm(element)}
-                    />
-                    <FormField
-                        id={'password'}
-                        formdata={this.state.formdata.password}
-                        change={(element) => this.updateForm(element)}
-                    />
+                    <div className="form__data">
+                        <FormField
+                            id={'email'}
+                            formdata={this.state.formdata.email}
+                            change={(element) => this.updateForm(element)}
+                        />
+                        <FormField
+                            id={'password'}
+                            formdata={this.state.formdata.password}
+                            change={(element) => this.updateForm(element)}
+                        />
+                    </div>
                 </form>
             </div>
         )

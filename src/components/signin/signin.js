@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from '@material-ui/core/Button';
+import { firebase } from '../../firebase';
 
 import './signin.css';
 import FormField from '../widgets/FormFields/formFields';
@@ -119,9 +120,31 @@ class SignIn extends Component {
                     registerError: ''
                 })
                 if(type) {
-                    console.log('Log in')
+                    firebase.auth()
+                    .signInWithEmailAndPassword(
+                        dataToSubmit.email, 
+                        dataToSubmit.password                        
+                    ).then(() => {
+                        this.props.history.push('/')
+                    }).catch(error => {
+                        this.setState({
+                            loading: false,
+                            registerError: error.message
+                        })                        
+                    })
                 } else {
-                    console.log('Register')
+                    firebase.auth()
+                    .createUserWithEmailAndPassword(
+                        dataToSubmit.email, 
+                        dataToSubmit.password
+                    ).then(() => {
+                        this.props.history.push('/')
+                    }).catch(error => {
+                        this.setState({
+                            loading: false,
+                            registerError: error.message
+                        })
+                    })
                 }
             }
         }
@@ -151,6 +174,12 @@ class SignIn extends Component {
         </div>
     )
 
+    showError = () => (
+        this.state.registerError !== '' ?
+            <div className="error-box text-center">{this.state.registerError}</div>
+        : ''
+    )
+
     render() {
         return (
             <div className="log-container">
@@ -169,6 +198,7 @@ class SignIn extends Component {
                         />
 
                         { this.submitButton() }
+                        { this.showError() }
                     </div>
                 </form>
             </div>

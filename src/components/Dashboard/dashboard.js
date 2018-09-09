@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Editor } from 'react-draft-wysiwyg';
+import { EditorState, convertFromRaw, convertToRaw } from 'draft-js';
+import { stateToHTML } from 'draft-js-export-html';
 import Button from '@material-ui/core/Button';
 
 import FormField from '../widgets/FormFields/formFields';
@@ -7,6 +10,7 @@ import './dashboard.css';
 class Dashboard extends Component {
 
     state = {
+        editorState: EditorState.createEmpty(),
         postError: '',
         loading: false,
         formdata: {
@@ -128,6 +132,19 @@ class Dashboard extends Component {
         : ''
     )
 
+    onEditorStateChange = (editorState) => {
+
+        let contentState = editorState.getCurrentContent();
+        let rawState = convertToRaw(contentState);
+        let html = stateToHTML(contentState)
+
+        console.log(html)
+
+        this.setState({
+            editorState
+        })
+    }
+
     render() {
         return (
             <div className="post-container">
@@ -145,10 +162,19 @@ class Dashboard extends Component {
                             formdata={this.state.formdata.author}
                             change={ (element) => this.updateForm(element) }
                         />
+
                         <FormField
                             id={'title'}
                             formdata={this.state.formdata.title}
                             change={ (element) => this.updateForm(element) }
+                        />
+
+                        <Editor
+                            editorState={this.state.editorState}
+                            wrapperClassName="editor-wrapper"
+                            editorClassName="editor-default"
+                            onEditorStateChange={this.onEditorStateChange}
+
                         />
                     </div>
 

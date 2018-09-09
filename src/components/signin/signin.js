@@ -65,8 +65,6 @@ class SignIn extends Component {
         newElement.touched = element.blur;
         newFormdata[element.id] = newElement;
 
-        //console.log(newFormdata)
-
         this.setState({
             formdata: newFormdata
         })
@@ -161,7 +159,8 @@ class SignIn extends Component {
                 color="primary"
                 size="large"
                 type="submit"
-            >Register now
+            >
+                Register now
             </Button>
             <Button 
                 variant="outlined" 
@@ -169,7 +168,8 @@ class SignIn extends Component {
                 color="primary" 
                 size="large"
                 type="submit"
-            >Log in
+            >
+                Log in
             </Button>
         </div>
     )
@@ -184,7 +184,12 @@ class SignIn extends Component {
         return (
             <div className="log-container">
                 <h2 className="log-title">Register / Log in</h2>
-                <form onSubmit={ (event) => this.submitForm(event, null) } className="form" noValidate autoComplete="off">
+                <form 
+                    onSubmit={ (event) => this.submitForm(event, null) } 
+                    className="form" 
+                    noValidate 
+                    autoComplete="off"
+                >
                     <div className="form__data">
                         <FormField
                             id={'email'}

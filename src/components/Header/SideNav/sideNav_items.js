@@ -28,7 +28,7 @@ const SideNavItems = (props) => {
         },
         {
             link: '/dashboard',
-            icon: 'sign-in',
+            icon: 'clipboard',
             text: "Dashboard",
             login: false
         },

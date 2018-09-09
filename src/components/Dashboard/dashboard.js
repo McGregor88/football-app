@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { firebaseTeams } from '../../firebase';
 import { Editor } from 'react-draft-wysiwyg';
 import { EditorState, convertFromRaw, convertToRaw } from 'draft-js';
 import { stateToHTML } from 'draft-js-export-html';
@@ -44,10 +45,57 @@ class Dashboard extends Component {
                 touched: false,
                 validationMessage: ''
             },
+            body: {
+                element: 'texteditor',
+                value: '',
+                valid: true
+            },
+            teams: {
+                element: 'select',
+                value: '',
+                config: {
+                    name: 'teams',
+                    options: []
+                },
+                validation: {
+                    required: true
+                },
+                valid: false,
+                touched: false,
+                validationMessage: ''
+            }
+
         }
     }
 
-    updateForm = (element) => {
+    componentDidMount() {
+        this.loadTeams()
+    }
+
+    loadTeams = () => {
+        firebaseTeams.once('value')
+        .then((snapshot) => {
+            let teams = [];
+
+            snapshot.forEach((childSnapshot) => {
+                teams.push({
+                    id: childSnapshot.val().id,
+                    name: childSnapshot.val().name
+                })
+            })
+            const newFormdata = {...this.state.formdata};
+            const newElement = {...newFormdata['teams']};
+
+            newElement.config.options = teams;
+            newFormdata['teams'] = newElement;
+
+            this.setState({
+                formdata: newFormdata
+            })
+        })
+    }
+
+    updateForm = (element, content = '') => {
         const newFormdata = {
             ...this.state.formdata
         }
@@ -55,7 +103,12 @@ class Dashboard extends Component {
             ...newFormdata[element.id]
         }
 
-        newElement.value = element.event.target.value;
+        if(content === '') {
+            newElement.value = element.event.target.value;
+        } else {
+            newElement.value = content;
+        }
+
         if(element.blur) {
             let validData = this.validate(newElement);
 
@@ -138,7 +191,7 @@ class Dashboard extends Component {
         let rawState = convertToRaw(contentState);
         let html = stateToHTML(contentState)
 
-        console.log(html)
+        this.updateForm({id:'body'}, html)
 
         this.setState({
             editorState
@@ -174,7 +227,12 @@ class Dashboard extends Component {
                             wrapperClassName="editor-wrapper"
                             editorClassName="editor-default"
                             onEditorStateChange={this.onEditorStateChange}
+                        />
 
+                        <FormField
+                            id={'teams'}
+                            formdata={this.state.formdata.teams}
+                            change={ (element) => this.updateForm(element) }
                         />
                     </div>
 

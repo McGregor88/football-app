@@ -1,5 +1,9 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
+import InputLabel from '@material-ui/core/InputLabel';
+import MenuItem from '@material-ui/core/MenuItem';
+import FormControl from '@material-ui/core/FormControl';
+import Select from '@material-ui/core/Select';
 
 import './formFields.css';
 
@@ -36,6 +40,29 @@ const FormField = ({formdata, change, id}) => {
                             onChange={(event) => change( {event, id, blur:false} )}
                         />
                         { showError() }
+                    </div>
+                )
+                break;
+
+            case('select'):
+                formTemplate = (
+                    <div className="select-box">
+                        <FormControl className="formControl">
+                            <InputLabel htmlFor={id}>Select team</InputLabel>
+                            <Select
+                                value={formdata.value}
+                                onChange={(event) => change( {event, id, blur:false} )}
+                                inputProps={{
+                                    name: formdata.config.name,
+                                    id: id
+                                }}
+                                autoWidth={true}
+                            >
+                            {formdata.config.options.map((item, i) => (
+                                <MenuItem key={i} value={item.id}>{item.name}</MenuItem>
+                            ))}
+                            </Select>
+                        </FormControl>
                     </div>
                 )
                 break;

@@ -19,3 +19,8 @@
     font-size: 14px;
     color: #a9a9a9;
 }
+
+.upload-box__img {
+    margin-top: 40px;
+    display: block;
+}

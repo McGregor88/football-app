@@ -53,8 +53,8 @@ const FormField = ({formdata, change, id}) => {
                                 value={formdata.value}
                                 onChange={(event) => change( {event, id, blur:false} )}
                                 inputProps={{
+                                    id: id,
                                     name: formdata.config.name,
-                                    id: id
                                 }}
                                 autoWidth={true}
                             >

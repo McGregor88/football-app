@@ -5,6 +5,7 @@ import { EditorState, convertFromRaw, convertToRaw } from 'draft-js';
 import { stateToHTML } from 'draft-js-export-html';
 import Button from '@material-ui/core/Button';
 
+import Uploader from '../widgets/FileUploader/fileUploader';
 import FormField from '../widgets/FormFields/formFields';
 import './dashboard.css';
 
@@ -47,6 +48,11 @@ class Dashboard extends Component {
             },
             body: {
                 element: 'texteditor',
+                value: '',
+                valid: true
+            },
+            image: {
+                element: 'image',
                 value: '',
                 valid: true
             },
@@ -198,6 +204,10 @@ class Dashboard extends Component {
         })
     }
 
+    storeFilename = (filename) => {
+        this.updateForm({id:'image'}, filename)
+    }
+
     render() {
         return (
             <div className="post-container">
@@ -208,7 +218,9 @@ class Dashboard extends Component {
                     autoComplete="off"
                 >
                     <h2 className="post-title">Add Post</h2>
-                    <div className="post-caption">Dashboard</div>
+                    <Uploader 
+                        filename={ (filename) => this.storeFilename(filename) }       
+                    />
                     <div className="fieldset">
                         <FormField
                             id={'author'}

@@ -51,6 +51,7 @@ const FormField = ({formdata, change, id}) => {
                             <InputLabel htmlFor={id}>Select team</InputLabel>
                             <Select
                                 value={formdata.value}
+                                onBlur={(event) => change( {event, id, blur:true} )}
                                 onChange={(event) => change( {event, id, blur:false} )}
                                 inputProps={{
                                     id: id,

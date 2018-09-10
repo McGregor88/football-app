@@ -135,7 +135,7 @@ class Dashboard extends Component {
         let error = [true, ''];
 
         if(element.validation.required) {
-            const valid = element.value.trim() !== '';
+            const valid = element.value.toString().trim() !== '';
             const message = `${!valid ? 'This field is required' : ''}`;
 
             error = !valid ? [valid, message] : error

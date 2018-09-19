@@ -16,7 +16,6 @@ const SliderTemplates = (props) => {
         slidesToShow: 1,
         slidesToScroll: 1,
         ...props.settings
-
     }
 
     switch(props.type) {
@@ -27,7 +26,7 @@ const SliderTemplates = (props) => {
                         <div className="featured-item">
                             <div className="featured-item__img"
                                 style={{
-                                    background:`url(../images/articles/${item.image})`
+                                    background:`url(${item.image})`
                                 }}>
                             </div>
                             <Link to={`/articles/${item.id}`}>

@@ -6,7 +6,6 @@ import FontAwesome from 'react-fontawesome';
 import './sideNav.css';
 
 const SideNavItems = (props) => {
-    console.log(props)
     const items = [
         {
             link: '/',

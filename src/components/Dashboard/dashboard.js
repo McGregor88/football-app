@@ -156,8 +156,6 @@ class Dashboard extends Component {
             formIsValid = this.state.formdata[key].valid && formIsValid
         }
 
-        console.log(dataToSubmit)
-
         if(formIsValid) {
 
             this.setState({
@@ -176,7 +174,7 @@ class Dashboard extends Component {
 
                 dataToSubmit['date'] = firebase.database.ServerValue.TIMESTAMP;
                 dataToSubmit['id'] = articleId + 1;
-                dataToSubmit['teamId'] = parseInt(dataToSubmit['teamId']);
+                dataToSubmit['teamId'] = parseInt(dataToSubmit['teamId'], 10);
 
                 firebaseArticles.push(dataToSubmit)
                 .then(article => {

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { firebase, firebaseArticles, firebaseLooper } from '../../../firebase';
 
 import SliderTemplates from './slider_templates';
-import { resolve } from 'upath';
 
 class NewsSlider extends Component {
 
